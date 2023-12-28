@@ -1,6 +1,8 @@
 # CHD
 A machine learning-based model for risk stratification of coronary heart disease has been created by our team and is now available for download. You can, of course, download the [CCRS](https://pypi.org/project/CCRS/) package as well. In the future, we might carry on with iterations.
 
+![CHD Figure](https://www.cdc.gov/heartdisease/images/coronary-artery-disease-medium.jpg)
+
 A simple example
 
 ```python
