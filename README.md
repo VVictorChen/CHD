@@ -6,6 +6,11 @@ A machine learning-based model for risk stratification of coronary heart disease
 A simple example
 
 ```python
+import pickle
+import scipy.stats as st
+import pandas as pd
+import numpy as np
+import CCRS
 loaded_model = pickle.load('./data/CHD_RF_lessFea.pkl')
 Traindata = pd.read_csv('./data/CHD_age.csv')
 # Naturally, the test data in this case can be replaced with the user's own data.
