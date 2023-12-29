@@ -24,6 +24,10 @@ CHD_RRS = RRScore(df,Traindata,mean=52.8,sd=9.8)
 result = pd.DataFrame({'CHD risk group': CHD_risk_group,'CHD relative risk rank':CHD_RRS})
 ```
 
+Features of the CHD model:
+
+![Features](https://github.com/VVictorChen/CHD/blob/main/Model/CHD%20features.png)
+
 Output:
 
 | CHD risk group | CHD relative risk rank |
@@ -37,5 +41,9 @@ Output:
 
 How to cite:
 
-Chen, B., Ruan, L., Yang, L., Zhang, Y., Lu, Y., Sang, Y., Jin, X., Bai, Y., Zhang, C., and Li, T. (2022). Machine learning improves risk stratification of coronary heart disease and stroke. Ann Transl Med 10, 1156. 10.21037/atm-22-1916.
+Chen, B., Ruan, L., Yang, L., Zhang, Y., Lu, Y., Sang, Y., Jin, X., Bai, Y., Zhang, C., and Li, T. (2022). Machine learning improves risk stratification of coronary heart disease and stroke. Ann Transl Med 10, 1156. 10.21037/atm-22-1916
+        
+        
+        
+        .
   
